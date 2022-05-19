@@ -1,0 +1,3 @@
+-obfuscationdictionary blaizers.txt.txt
+-packageobfuscationdictionary blaizers.txt
+-classobfuscationdictionary blaizers.txt

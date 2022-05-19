@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="blaizers_button_style">
+        <item name="android:background">@drawable/blaizers_button_back</item>
+        <item name="android:fontFamily">@font/ultra</item>
+        <item name="android:color">@color/white</item>
+    </style>
+
+    <style name="blaizers_text_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:fontFamily">@font/ultra</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:background">@drawable/blaizers_text_back</item>
+    </style>
+</resources>

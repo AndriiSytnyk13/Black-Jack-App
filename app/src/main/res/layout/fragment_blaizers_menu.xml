@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="blaizersMenuVieModel"
+            type="com.miuelO6.netsb.com.viewmodel.BlaizersMenuViewModel" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/blaizers_back_2"
+        tools:context=".view.BlaizersMenuFragment">
+
+        <LinearLayout
+            android:layout_width="130dp"
+            android:layout_height="30dp"
+            android:background="@drawable/blaizers_text_back"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.078"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.027">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginEnd="10dp"
+                android:background="@drawable/blaizers_chip"
+                tools:ignore="ContentDescription" />
+
+            <TextView
+                android:id="@+id/blaizers_money"
+                style="@style/blaizers_text_style"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:maxLength="6"
+                android:text="@{String.valueOf(blaizersMenuVieModel.blaizersMoneyText)}" />
+
+        </LinearLayout>
+
+
+        <com.airbnb.lottie.LottieAnimationView
+            android:layout_width="357dp"
+            android:layout_height="297dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.135"
+            app:lottie_autoPlay="true"
+            app:lottie_rawRes="@raw/blaizers_cards" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.945">
+
+            <Button
+                android:id="@+id/blaizers_play"
+                style="@style/blaizers_button_style"
+                android:layout_width="150dp"
+                android:layout_height="56dp"
+                android:layout_marginBottom="15dp"
+                android:text="@string/blaizers_play"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+            <Button
+                android:id="@+id/blaizers_get_chips"
+                style="@style/blaizers_button_style"
+                android:layout_width="150dp"
+                android:layout_height="56dp"
+                android:layout_marginBottom="15dp"
+                android:onClick="@{() -> blaizersMenuVieModel.addBlaizersChips()}"
+                android:text="@string/blaizers_get_chips"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.634" />
+
+            <Button
+                android:id="@+id/blaizers_rules"
+                style="@style/blaizers_button_style"
+                android:layout_width="150dp"
+                android:layout_height="56dp"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/blaizers_button_back"
+                android:text="@string/blaizers_rules"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.634" />
+
+
+            <ToggleButton
+                android:id="@+id/blaizers_sound"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:layout_marginBottom="15dp"
+                android:background="@drawable/blaizers_sound"
+                android:checked="@{blaizersMenuVieModel.blaizersSound}"
+                android:onClick="@{() -> blaizersMenuVieModel.switchBlaizersSound()}"
+                android:textOff=""
+                android:textOn="" />
+
+
+            <Button
+                android:id="@+id/blaizers_quit"
+                style="@style/blaizers_button_style"
+                android:layout_width="150dp"
+                android:layout_height="56dp"
+                android:background="@drawable/blaizers_button_back"
+                android:text="@string/blaizers_quit"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                app:layout_constraintVertical_bias="0.634" />
+
+        </LinearLayout>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            tools:ignore="MissingConstraints" />
+
+        <androidx.appcompat.widget.SwitchCompat
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone"
+            tools:ignore="MissingConstraints" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Melbet</string>
+
+    <string name="blaizers_loading">Wird geladen...</string>
+    <string name="blaizers_missing_connection">Keine Internetverbindung</string>
+    <string name="blaizersEnoughChipsMessage">Sie haben genug Chips zum Spielen</string>
+    <string name="blaizersChipsAdded">Sie haben 300 Chips zum Spielen erhalten</string>
+    <string name="blaizersNotEnoughChipsToPlay">Sie haben nicht genug Chips zum Spielen. Bitte klicken Sie auf \"Chips erhalten\", um sie zu erhalten.</string>
+    <string name="blaizers_play">spielen</string>
+    <string name="blaizers_get_chips">Chips bekommen</string>
+    <string name="blaizers_rules">Regeln</string>
+    <string name="blaizers_quit">Ausloggen</string>
+    <string name="blaizers_min_bet">Min Gebot: 1</string>
+    <string name="blaizersNotEnoughChipsMessage">Sie haben nicht genug Geld, um eine Wette hinzuzufügen!</string>
+    <string name="blaizersMinBetMessage">Das Mindestgebot beträgt 1. Sie können das Gebot nicht mehr reduzieren!</string>
+    <string name="blazers_bet">Stellen</string>
+    <string name="blaizers_hit">noch</string>
+    <string name="blaizers_stand">genügend</string>
+    <string name="blaizers_double">doppelt</string>
+    <string name="blaizers_surrender">aufgeben</string>
+    <string name="blaizers_bust">Büste!</string>
+    <string name="blaizers_win">Herzliche Glückwünsche. Du hast gewonnen!!!</string>
+    <string name="blaizers_dealer_black_jack">Du verlierst! Dealer hat einen Black Jack!</string>
+    <string name="blaizers_draw">Ziehen</string>
+    <string name="blaizers_lose_dealer_more">Du hast verloren! Der Dealer hat mehr Punkte als Sie</string>
+    <string name="blaizersNotMoney">Sie haben kein Geld zum Wetten. Bitte kehren Sie zum Hauptmenü zurück und holen Sie sich Chips zum Spielen!</string>
+    <string name="blaizers_surrender_message">Du hast dich ergeben! Sie erhalten danach die Hälfte des Einsatzes zurück.</string>
+</resources>

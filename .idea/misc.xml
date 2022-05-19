@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/blaizers_sound.xml" value="0.2075" />
+        <entry key="app/src/main/res/font/ultra.xml" value="0.23020833333333332" />
+        <entry key="app/src/main/res/layout-land/fragment_blaizers_menu.xml" value="0.22" />
+        <entry key="app/src/main/res/layout/activity_blaizers_game.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_blaizers_loading.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/activity_blaizers_web.xml" value="0.3591485507246377" />
+        <entry key="app/src/main/res/layout/activity_loading.xml" value="0.2866847826086957" />
+        <entry key="app/src/main/res/layout/content_blaizers_game.xml" value="0.2" />
+        <entry key="app/src/main/res/layout/dialog_blaizers.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_blaizers_game.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_blaizers_menu.xml" value="0.33" />
+        <entry key="app/src/main/res/layout/fragment_blaizers_rules.xml" value="0.19204222492894843" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.2375" />
+        <entry key="app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.2375" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

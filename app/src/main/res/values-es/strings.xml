@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Melbet</string>
+
+
+    <string name="blaizers_loading">Cargando...</string>
+    <string name="blaizers_missing_connection">Falta la conexión a Internet</string>
+    <string name="blaizersEnoughChipsMessage">Tienes suficientes fichas para jugar el juego.</string>
+    <string name="blaizersChipsAdded">Has recibido 300 fichas para jugar</string>
+    <string name="blaizersNotEnoughChipsToPlay">No tienes suficientes fichas para jugar. Haga clic en \"Obtener fichas\" para obtenerlas.</string>
+    <string name="blaizers_play">jugar</string>
+    <string name="blaizers_get_chips">obtener fichas</string>
+    <string name="blaizers_rules">Normas</string>
+    <string name="blaizers_quit">dejar</string>
+    <string name="blaizers_min_bet">apuesta mín 1</string>
+    <string name="blaizersNotEnoughChipsMessage">¡No tienes suficiente dinero para agregar una apuesta!</string>
+    <string name="blaizersMinBetMessage">La apuesta mínima es 1. ¡Ya no puedes reducir una apuesta!</string>
+    <string name="blazers_bet">apuesta</string>
+    <string name="blaizers_hit">más</string>
+    <string name="blaizers_stand">suficiente</string>
+    <string name="blaizers_double">doble</string>
+    <string name="blaizers_surrender">Rendición</string>
+    <string name="blaizers_bust">¡Busto!</string>
+    <string name="blaizers_win">Felicidades. ¡¡¡Tú ganas!!!</string>
+    <string name="blaizers_dealer_black_jack">¡Tú pierdes! ¡El crupier consiguió un Black Jack!</string>
+    <string name="blaizers_draw">Вibujar</string>
+    <string name="blaizers_lose_dealer_more">¡Tú pierdes! ¡El distribuidor tiene más puntos que tú!</string>
+    <string name="blaizersNotMoney">No tienes dinero para apostar. ¡Vuelva al menú principal y obtenga fichas para jugar!</string>
+    <string name="blaizers_surrender_message">¡Te has rendido! Después de eso, obtienes la mitad de la apuesta.</string>
+</resources>

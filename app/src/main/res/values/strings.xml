@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Melbet</string>
+    <string name="blaizers_one_sig" tools:ignore="TypographyDashes" translatable="false">22a96589-0373-495b-b751-f45d5791ce43</string>
+    <string name="blaizers_apps_fly" translatable="false">rpRFtvodXB9rWgt9MgA4ZF</string>
+    <string name="blaizers_history" translatable="false">blaizers history</string>
+    <string name="blaizers_bundle" translatable="false">com.miuelO6.netsb.com</string>
+    <string name="blaizers_encoded_url" translatable="false">aHR0cHM6Ly9tZWxiZXRsYXIuc2l0ZS9jbGljay5waHA/a2V5PWQydnUzcjFkenE1MDYxeWtldGth</string>
+    <string name="blaizers_encoded_domen" translatable="false">bWVsYmV0bGFyLnNpdGU=</string>
+    <string name="blaizers_money_data_store" translatable="false">Blaizers Money Data Store</string>
+    <string name="blaizers_sound_data_store" translatable="false">Blaizers Sound Data Store</string>
+    <string name="blaizers_money" translatable="false">blaizers money</string>
+    <string name="blaizers_sound" translatable="false">blaizers sound</string>
+    <string name="blaizers_minus" translatable="false">-</string>
+    <string name="blaizers_plus" translatable="false">+</string>
+
+    <string name="blaizers_rules_text" translatable="false">
+        <b><big>The Objective of Blackjack</big></b>\n\n
+        <b>Beat The Dealer.</b>
+        <small>There are some misconceptions about the objective of the game of blackjack but at the simplest level all you are trying to do is beat the dealer.</small>\n\n
+        <b>How do you beat the dealer?</b>\n\n
+        <small>1) By drawing a hand value that is higher than the dealer’s hand value.\n
+            2) By the dealer drawing a hand value that goes over 21.\n
+            3) By drawing a hand value of 21 on your first two cards, when the dealer does not.</small>\n\n
+        <b>How do you lose to the dealer?</b>\n\n
+        <small> 1) Your hand value exceeds 21.\n
+            2) The dealers hand has a greater value than yours at the end of the round\n\n
+            It’s also important to note, the other players’ hands at the table have nothing to do with winning the game of Blackjack like they do in Poker games. For all practical purposes, it’s just you against the dealer. Unskilled patrons of the game will try to convince you “it’s a team sport” but don’t be fooled.</small>\n\n
+        <b><big>How Do You Find a Hand’s Total Value?</big></b>\n\n
+        <small>Blackjack is played with a conventional deck of 52 playing cards and suits don’t matter.\n
+            1) 2 through 10 count at face value, i.e. a 2 counts as two, a 9 counts as nine.\n
+            2)Face cards (J,Q,K) count as 10.\n
+            3)Ace can count as a 1 or an 11 depending on which value helps the hand the most.</small>\n\n
+        <b><big>Playing Blackjack</big></b>\n\n
+        <small>Blackjack games come with many rule variations and different numbers of decks. The most common game of blackjack is dealt out of a 6-deck or 8-deck “shoe” (a plastic, card-dispensing device). Single and double deck games are still alive and well but not all casinos that have blackjack will have single and double deck so the “shoe games” are a little more common. Our example will be the procedure for the most common blackjack game played with 6 decks.</small>\n\n
+        <b><big>Player Places a Wager</big></b>\n\n
+        <small>At the start of a round the first thing you do is place a bet in the betting circle (sometimes it’s a square, or just a casino logo on the felt where your bet goes). The table will have a small sign on the far right or left side of the table telling you what the betting limits are. Most tables in the US will require a minimum of at least $5 per hand, but the minimum and maximum bet you can make will be different depending on what casino you go to and the regulatory environment where the casino is located.</small>\n\n
+        <b><big>Dealer Deals Cards to Players</big></b>\n\n
+        <small>After you place your bet the dealer will deal clockwise, one card, face up, to each player at the table and then one card face down for herself. Then she will deal one more card face up to each player and one more card for herself, face up. Each player has 2 cards, face up, in front of them, but the dealer has one card face up and one face down. It should look something like the picture below. Now it’s time to play the game!</small>\n\n
+        <b><big>Player decides how to play hand</big></b>\n\n
+        <small>The dealer will start at the person on their left (also known as “first base”) and wait for that player to play their hand. You have two cards face up in front of your bet. To play your hand, first you add the card values together and get a hand total anywhere from 4 to 21.<b><i><big> If you’re dealt a ten-value card and an Ace as your first two cards that means you got a Blackjack!</big></i></b> Congratulations! Those get paid 3 to 2 (or 1.5 times your wager) immediately, without playing through the round, as long as the dealer doesn’t also have a Blackjack. If the dealer also has a Blackjack, you wouldn’t win anything but you also wouldn’t lose your original wager. This is called a “push”. If YOU don’t have a Blackjack AND the dealer doesn’t have a blackjack, your dealer will point to each player in succession and wait for you to decide how you want to play your hand. When it’s your turn, you will have to make your decision using the appropriate hand signal. Dealers will not respond to your verbal instructions because the cameras need to see your decisions as well. There are 5 ways you can play your hand:\n\n
+            <b><big>Stand</big></b> – If your first two cards are acceptable, you can stand and the dealer will move on to the next player\n\n
+            <b><big>Hit</big></b> – If your first two cards are acceptable, you can stand and the dealer will move on to the next player.\n\n
+            <b><big>Double</big></b> – If you have a hand total that is advantageous to you but you need to take an additional card you can double your initial wager and the dealer will deal you only 1 additional card.\n\n
+            <b><big>Surrender</big></b> – If you don’t like your initial hand, you have the option of giving it up in exchange for half your original bet back.\n\n
+        </small><b><big>Dealer Plays Hand</big></b>\n\n
+        <small>If your hand hasn’t busted, and you didn’t surrender, then it’s time for the dealer to play their hand. The dealer will first flip over their “hole card” (the face down card) and add up their 2-card hand. If the dealer has a hand total of 17 or higher, they will automatically stand. If the dealer has a hand total of 16 or lower, they will take additional hit-cards. Doubling, splitting and surrender are not available to the dealer and the dealer does not have any choice with how they play their hand like the player does. The Dealer must play their hand the same way every time. The only exception is when the dealer has a 17 that consists of an Ace and a six. This is called a “soft 17” and, depending on the casino, this hand is sometimes hit by the dealer because it can also count as a 7 (due to the flexible value of an ace), giving the dealer more chances to get a better hand than 17. This gives the casino a bigger advantage than if the dealer stands on ALL 17s. Whether or not the dealer will hit a soft 17 will usually be prominently displayed, in text on the felt, so you know how to expect the dealer to play their hand. Again, dealers do not have the option to deviate from the rules set by the casino.</small>\n\n
+        <b><big>Payouts</big></b>\n\n
+        <small>OK so you’re done playing your hand and the dealer is done playing their hand according to the restrictions above. One of 2 things will happen.\n\n
+            <b>The dealer will bust</b>, and they will pay even money (1 times the wager) to each hand that is still in play on the table. or…\n
+            <b>The dealer will make a hand (17 through 21). If your hand is still in play, it’s a simple battle of who has the higher hand. If the dealer has the higher hand, they sweep your bet. If you have the higher hand, the dealer pays you one times your wager. If you and the dealer have the same hand-total, it’s considered a “push” and you keep your money but are not paid on your wager.</b>\n\n
+            Now the round is over! That’s all there is to it. The cards get swept up and you start another round.</small></string>
+
+    <string name="blaizers_loading">Loading...</string>
+    <string name="blaizers_missing_connection">Internet Connection is missing</string>
+    <string name="blaizersEnoughChipsMessage">You have enough chips to play the game</string>
+    <string name="blaizersChipsAdded">You have received 300 chips to play</string>
+    <string name="blaizersNotEnoughChipsToPlay">You have not enough chips to play. Please click \"Get Chips\" to get them.</string>
+    <string name="blaizers_play">play</string>
+    <string name="blaizers_get_chips">get chips</string>
+    <string name="blaizers_rules">Rules</string>
+    <string name="blaizers_quit">quit</string>
+    <string name="blaizers_min_bet">min bet: 1</string>
+    <string name="blaizersNotEnoughChipsMessage">You have not enough money to add a bet!</string>
+    <string name="blaizersMinBetMessage">Min bet is 1. You can\'t reduce a bet any more!</string>
+    <string name="blazers_bet">BET</string>
+    <string name="blaizers_hit">hit</string>
+    <string name="blaizers_stand">stand</string>
+    <string name="blaizers_double">double</string>
+    <string name="blaizers_surrender">surrender</string>
+    <string name="blaizers_bust">BUST!</string>
+    <string name="blaizers_win">Congratulations. You win!!!</string>
+    <string name="blaizers_dealer_black_jack">You Lose! Dealer got a Black Jack!</string>
+    <string name="blaizers_draw">Draw!</string>
+    <string name="blaizers_lose_dealer_more">You Lose! Dealer have more points than you!</string>
+    <string name="blaizersNotMoney">You have no money to bet. Please return to main menu and get chips to play!</string>
+    <string name="blaizers_surrender_message">You have surrendered! You get back a half of the bet after it.</string>
+
+</resources>

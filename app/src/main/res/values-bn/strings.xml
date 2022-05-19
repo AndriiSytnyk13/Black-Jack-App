@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Melbet</string>
+    <string name="blaizers_loading">লোড হচ্ছে...</string>
+    <string name="blaizers_missing_connection">ইন্টারনেট সংযোগ নেই</string>
+    <string name="blaizersEnoughChipsMessage">আপনি খেলার জন্য যথেষ্ট চিপ আছে</string>
+    <string name="blaizersNotEnoughChipsToPlay">খেলার জন্য আপনার কাছে পর্যাপ্ত চিপস নেই। সেগুলি পেতে অনুগ্রহ করে \"চিপস পান\" এ ক্লিক করুন৷</string>
+    <string name="blaizersChipsAdded">আপনি খেলার জন্য 300 টি চিপ পেয়েছেন</string>
+    <string name="blaizers_play">খেলা</string>
+    <string name="blaizers_get_chips">চিপস পেতে</string>
+    <string name="blaizers_rules">নিয়ম</string>
+    <string name="blaizers_min_bet">ন্যূনতম হার: 1</string>
+    <string name="blaizers_quit">লগ অফ</string>
+    <string name="blaizersNotEnoughChipsMessage">একটি বাজি যোগ করার জন্য আপনার কাছে পর্যাপ্ত অর্থ নেই!</string>
+    <string name="blaizersMinBetMessage">সর্বনিম্ন বিড হল 1। আপনি আর বিড কমাতে পারবেন না!</string>
+    <string name="blazers_bet">রাখুন</string>
+    <string name="blaizers_hit">আরো</string>
+    <string name="blaizers_stand">যথেষ্ট</string>
+    <string name="blaizers_double">দ্বিগুণ</string>
+    <string name="blaizers_surrender">আত্মসমর্পণ</string>
+    <string name="blaizers_bust">আবক্ষ !</string>
+    <string name="blaizers_win">অভিনন্দন। তুমি জিতেছিলে!!!</string>
+    <string name="blaizers_dealer_black_jack">তুমি হেরেছ! ডিলার একটি কালো জ্যাক পেয়েছেন!</string>
+    <string name="blaizers_draw">আঁকা</string>
+    <string name="blaizers_lose_dealer_more">তুমি হেরে গেছ! ডিলার আপনার চেয়ে বেশি পয়েন্ট আছে</string>
+    <string name="blaizersNotMoney">আপনার কাছে বাজি ধরার টাকা নেই। দয়া করে মূল মেনুতে ফিরে যান এবং খেলতে চিপস পান!</string>
+    <string name="blaizers_surrender_message">আপনি আত্মসমর্পণ করেছেন! আপনি এটি পরে বাজি অর্ধেক ফিরে পাবেন.</string>
+</resources>
